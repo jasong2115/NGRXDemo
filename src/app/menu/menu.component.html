@@ -1,0 +1,7 @@
+<h1>Batch Type</h1>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button routerLink="/uosbatch" routerLinkActive="router-link-active" mat-menu-item>UOS Batch</button>
+  <button routerLink="/dojbatch" routerLinkActive="router-link-active" mat-menu-item>DOJ Batch</button>
+</mat-menu>
+<router-outlet></router-outlet>
